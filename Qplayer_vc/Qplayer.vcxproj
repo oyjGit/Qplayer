@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Common\ErrorCode.h" />
+    <ClInclude Include="..\include\Common\mutexUtil.h" />
+    <ClInclude Include="..\include\Common\queue.h" />
+    <ClInclude Include="..\include\common\Semaphore.h" />
+    <ClInclude Include="..\include\Common\Singleton.h" />
+    <ClInclude Include="..\include\common\Thread.h" />
+    <ClInclude Include="..\include\Common\ThreadDelegate.h" />
+    <ClInclude Include="..\include\MediaDecode\AudioDecoderFactory.h" />
+    <ClInclude Include="..\include\MediaDecode\AudioDecoderSoft.h" />
+    <ClInclude Include="..\include\MediaDecode\AudioDecoderWorker.h" />
+    <ClInclude Include="..\include\MediaDecode\IAudioDecoder.h" />
+    <ClInclude Include="..\include\MediaDecode\VideoDecoderWorker.h" />
+    <ClInclude Include="..\include\MediaDecode\FFH264Decoder.h" />
+    <ClInclude Include="..\include\MediaDecode\H264DecoderSoft.h" />
+    <ClInclude Include="..\include\MediaDecode\IVideoDecoder.h" />
+    <ClInclude Include="..\include\MediaDecode\VideoDecoderFactory.h" />
+    <ClInclude Include="..\include\MediaInput\HlsClient.h" />
+    <ClInclude Include="..\include\MediaInput\IMediaInput.h" />
+    <ClInclude Include="..\include\MediaInput\MediaInput.h" />
+    <ClInclude Include="..\include\MediaInput\MediaInputFactory.h" />
+    <ClInclude Include="..\include\MediaInput\RtmpClient.h" />
+    <ClInclude Include="..\include\MediaInput\RtmpClientWrap.h" />
+    <ClInclude Include="..\include\MediaOutput\AudioSwrUtil.h" />
+    <ClInclude Include="..\include\MediaOutput\DDrawer.h" />
+    <ClInclude Include="..\include\MediaOutput\DSounder.h" />
+    <ClInclude Include="..\include\MediaOutput\IAudioSounder.h" />
+    <ClInclude Include="..\include\MediaOutput\IVideoDrawer.h" />
+    <ClInclude Include="..\include\MediaOutput\OpenGLRender.h" />
+    <ClInclude Include="..\include\MediaOutput\VideoDrawerFactory.h" />
+    <ClInclude Include="..\include\MediaOutput\VideoSwsUtil.h" />
+    <ClInclude Include="..\include\MediaOutput\WinDrawerDef.h" />
+    <ClInclude Include="..\include\PlayerImp\DataRelay.h" />
+    <ClInclude Include="..\include\PlayerImp\PlayAudio.h" />
+    <ClInclude Include="..\include\PlayerImp\PlayControl.h" />
+    <ClInclude Include="..\include\PlayerImp\PlayProcess.h" />
+    <ClInclude Include="..\include\PlayerImp\PlayVideo.h" />
+    <ClInclude Include="..\include\PlayerImp\QPlayer.h" />
+    <ClInclude Include="..\include\PlayerImp\TimeTask.h" />
+    <ClInclude Include="..\include\typedef\CommonDef.h" />
+    <ClInclude Include="..\include\typedef\Playerdef.h" />
+    <ClInclude Include="..\include\util\aacUtil.h" />
+    <ClInclude Include="..\include\Util\ffmpegUtil.h" />
+    <ClInclude Include="..\include\util\h264Util.h" />
+    <ClInclude Include="..\include\Util\logcpp.h" />
+    <ClInclude Include="..\include\util\MediaQueue.h" />
+    <ClInclude Include="..\include\Util\PlayerCallBack.h" />
+    <ClInclude Include="..\include\util\readFile.h" />
+    <ClInclude Include="..\include\Util\timeUtil.h" />
+    <ClInclude Include="..\include\Util\version.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Common\mutexUtil.c" />
+    <ClCompile Include="..\src\Common\queue.c" />
+    <ClCompile Include="..\src\common\Semaphore.cpp" />
+    <ClCompile Include="..\src\common\Thread.cpp" />
+    <ClCompile Include="..\src\MediaDecode\AudioDecoderFactory.cpp" />
+    <ClCompile Include="..\src\MediaDecode\AudioDecoderSoft.cpp" />
+    <ClCompile Include="..\src\MediaDecode\AudioDecoderWorker.cpp" />
+    <ClCompile Include="..\src\MediaDecode\H264DecoderSoft.cpp" />
+    <ClCompile Include="..\src\MediaDecode\VideoDecoderFactory.cpp" />
+    <ClCompile Include="..\src\MediaDecode\VideoDecoderWorker.cpp" />
+    <ClCompile Include="..\src\MediaInput\HlsClient.cpp" />
+    <ClCompile Include="..\src\MediaInput\MediaInput.cpp" />
+    <ClCompile Include="..\src\MediaInput\MediaInputFactory.cpp" />
+    <ClCompile Include="..\src\MediaInput\RtmpClient.cpp" />
+    <ClCompile Include="..\src\MediaInput\RtmpClientWrap.cpp" />
+    <ClCompile Include="..\src\MediaOutput\AudioSwrUtil.cpp" />
+    <ClCompile Include="..\src\MediaOutput\DDrawer.cpp" />
+    <ClCompile Include="..\src\MediaOutput\DSounder.cpp" />
+    <ClCompile Include="..\src\MediaOutput\OpenGLRender.cpp" />
+    <ClCompile Include="..\src\MediaOutput\VideoDrawerFactory.cpp" />
+    <ClCompile Include="..\src\MediaOutput\VideoSwsUtil.cpp" />
+    <ClCompile Include="..\src\PlayerImp\DataRelay.cpp" />
+    <ClCompile Include="..\src\PlayerImp\PlayAudio.cpp" />
+    <ClCompile Include="..\src\PlayerImp\PlayControl.cpp" />
+    <ClCompile Include="..\src\PlayerImp\PlayProcess.cpp" />
+    <ClCompile Include="..\src\PlayerImp\PlayVideo.cpp" />
+    <ClCompile Include="..\src\PlayerImp\QPlayer.cpp" />
+    <ClCompile Include="..\src\PlayerImp\TimeTask.cpp" />
+    <ClCompile Include="..\src\util\aacUtil.c" />
+    <ClCompile Include="..\src\Util\ffmpegUtil.cpp" />
+    <ClCompile Include="..\src\Util\h264Parser.c" />
+    <ClCompile Include="..\src\util\h264Util.c" />
+    <ClCompile Include="..\src\Util\logcpp.cpp" />
+    <ClCompile Include="..\src\util\MediaQueue.cpp" />
+    <ClCompile Include="..\src\Util\PlayerCallBack.cpp" />
+    <ClCompile Include="..\src\util\readFile.c" />
+    <ClCompile Include="..\src\Util\strHelper.c" />
+    <ClCompile Include="..\src\Util\timeUtil.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="qplayer_export.def" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{02B1319F-120A-47FD-87AE-ACC5EDB4B542}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Qplayer</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryWPath>$(WindowsSDK_MetadataPath);</LibraryWPath>
+    <OutDir>../Qplayer_test/$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_USRDLL;_CONSOLE;QPLAYER_EXPORTS;LOG_LEVEL_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>../include/Common;../include/Typedef;../include/Util;../include/PlayerImp;../include/MediaDecode;../include/MediaInput;../include/MediaOutput/;../third_lib/ffmpeg2.8.1/include;../third_lib/rtmpdump/librtmp;../third_lib/opengl/include;../third_lib/log4cpp/include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../third_lib/ffmpeg2.8.1/lib;../third_lib/rtmpdump/librtmp/Release;../third_lib/opengl/lib;../third_lib/log4cpp/lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>avcodec.lib;avformat.lib;swscale.lib;swresample.lib;postproc.lib;avutil.lib;avfilter.lib;avdevice.lib;wldap32.lib;ws2_32.lib;librtmp.lib;opengl32.lib;glu32.lib;glew32.lib;Gdi32.lib;log4cpp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>LIBCMT.lib</IgnoreSpecificDefaultLibraries>
+      <StackReserveSize>
+      </StackReserveSize>
+      <ModuleDefinitionFile>qplayer_export.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;QPLAYER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

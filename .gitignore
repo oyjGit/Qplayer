@@ -1,0 +1,10 @@
+#igonre file
+
+Qplayer_test/Debug
+Qplayer_vc/Debug
+
+third_lib
+*.obj
+*.log
+*.sdf
+*.opensdf

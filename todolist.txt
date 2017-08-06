@@ -1,0 +1,3 @@
+1.点击注册时，调用Init函数，创建CMediaInut时，隐式调用了start。（解决）。
+2.回调函数实现换成std::function方式。(完成)
+3.windows平台opengl适配工作

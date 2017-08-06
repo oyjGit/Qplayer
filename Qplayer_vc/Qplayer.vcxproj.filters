@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\MediaInput">
+      <UniqueIdentifier>{2a087f5e-b8f0-4cd4-b619-984cf72b6f0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Common">
+      <UniqueIdentifier>{e4b7757b-74c4-434b-84ca-247f48255a9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Typedef">
+      <UniqueIdentifier>{28daeaba-a76b-4fa4-93bb-aa06533ade3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Util">
+      <UniqueIdentifier>{47a31c9f-326c-4baf-84c3-0b78df5c41f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Common">
+      <UniqueIdentifier>{a5a0e737-3781-4427-a88b-59bd04e4323a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Util">
+      <UniqueIdentifier>{f5b7b93f-c343-4e81-8183-24b461327e9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MediaInput">
+      <UniqueIdentifier>{ba56b256-86f8-40d1-a04a-59eec778cb80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\PlayerImp">
+      <UniqueIdentifier>{37f11a91-e369-493c-a347-984af176567d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\PlayerImp">
+      <UniqueIdentifier>{42ce89bb-eac1-4425-b2c8-41ffe40992ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MediaDecode">
+      <UniqueIdentifier>{ef68b45a-cf2b-4d8b-be87-aa4dfd99760e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MediaDecode">
+      <UniqueIdentifier>{f3e8a9ea-9d16-4581-b23d-2316b552fdf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MediaOutput">
+      <UniqueIdentifier>{ed8b7671-bda4-436b-9ce3-62f895143822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MediaOutput">
+      <UniqueIdentifier>{36b70aa0-73d6-40cc-88b4-35f488005cb0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\common\Thread.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\util\MediaQueue.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\typedef\Playerdef.h">
+      <Filter>头文件\Typedef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\typedef\CommonDef.h">
+      <Filter>头文件\Typedef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\common\Semaphore.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\util\aacUtil.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\util\h264Util.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\util\readFile.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MediaInput\IMediaInput.h">
+      <Filter>头文件\MediaInput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MediaInput\HlsClient.h">
+      <Filter>头文件\MediaInput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MediaInput\MediaInputFactory.h">
+      <Filter>头文件\MediaInput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MediaInput\MediaInput.h">
+      <Filter>头文件\MediaInput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Common\ErrorCode.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Common\ThreadDelegate.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PlayerImp\DataRelay.h">
+      <Filter>头文件\PlayerImp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PlayerImp\QPlayer.h">
+      <Filter>头文件\PlayerImp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Util\version.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Util\timeUtil.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Common\Singleton.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Util\PlayerCallBack.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MediaDecode\IVideoDecoder.h">
+      <Filter>头文件\MediaDecode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MediaDecode\H264DecoderSoft.h">
+      <Filter>头文件\MediaDecode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MediaDecode\FFH264Decoder.h">
+      <Filter>头文件\MediaDecode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MediaDecode\VideoDecoderFactory.h">
+      <Filter>头文件\MediaDecode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MediaDecode\VideoDecoderWorker.h">
+      <Filter>头文件\MediaDecode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MediaDecode\IAudioDecoder.h">
+      <Filter>头文件\MediaDecode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MediaDecode\AudioDecoderSoft.h">
+      <Filter>头文件\MediaDecode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MediaDecode\AudioDecoderFactory.h">
+      <Filter>头文件\MediaDecode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MediaDecode\AudioDecoderWorker.h">
+      <Filter>头文件\MediaDecode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Util\ffmpegUtil.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MediaOutput\IVideoDrawer.h">
+      <Filter>头文件\MediaOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MediaOutput\DDrawer.h">
+      <Filter>头文件\MediaOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MediaOutput\WinDrawerDef.h">
+      <Filter>头文件\MediaOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PlayerImp\PlayVideo.h">
+      <Filter>头文件\PlayerImp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MediaOutput\AudioSwrUtil.h">
+      <Filter>头文件\MediaOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MediaOutput\VideoSwsUtil.h">
+      <Filter>头文件\MediaOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MediaOutput\IAudioSounder.h">
+      <Filter>头文件\MediaOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MediaOutput\DSounder.h">
+      <Filter>头文件\MediaOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PlayerImp\PlayAudio.h">
+      <Filter>头文件\PlayerImp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PlayerImp\PlayControl.h">
+      <Filter>头文件\PlayerImp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PlayerImp\PlayProcess.h">
+      <Filter>头文件\PlayerImp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MediaInput\RtmpClient.h">
+      <Filter>头文件\MediaInput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MediaInput\RtmpClientWrap.h">
+      <Filter>头文件\MediaInput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Common\mutexUtil.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Common\queue.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PlayerImp\TimeTask.h">
+      <Filter>头文件\PlayerImp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MediaOutput\VideoDrawerFactory.h">
+      <Filter>头文件\MediaOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MediaOutput\OpenGLRender.h">
+      <Filter>头文件\MediaOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Util\logcpp.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\common\Thread.cpp">
+      <Filter>源文件\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\Semaphore.cpp">
+      <Filter>源文件\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util\MediaQueue.cpp">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util\aacUtil.c">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util\h264Util.c">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util\readFile.c">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MediaInput\HlsClient.cpp">
+      <Filter>源文件\MediaInput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Util\h264Parser.c">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MediaInput\MediaInputFactory.cpp">
+      <Filter>源文件\MediaInput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MediaInput\MediaInput.cpp">
+      <Filter>源文件\MediaInput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Util\strHelper.c">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PlayerImp\DataRelay.cpp">
+      <Filter>源文件\PlayerImp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PlayerImp\QPlayer.cpp">
+      <Filter>源文件\PlayerImp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Util\timeUtil.cpp">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Util\PlayerCallBack.cpp">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MediaDecode\H264DecoderSoft.cpp">
+      <Filter>源文件\MediaDecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MediaDecode\VideoDecoderFactory.cpp">
+      <Filter>源文件\MediaDecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MediaDecode\VideoDecoderWorker.cpp">
+      <Filter>源文件\MediaDecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MediaDecode\AudioDecoderSoft.cpp">
+      <Filter>源文件\MediaDecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MediaDecode\AudioDecoderFactory.cpp">
+      <Filter>源文件\MediaDecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MediaDecode\AudioDecoderWorker.cpp">
+      <Filter>源文件\MediaDecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Util\ffmpegUtil.cpp">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MediaOutput\DDrawer.cpp">
+      <Filter>源文件\MediaOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PlayerImp\PlayVideo.cpp">
+      <Filter>源文件\PlayerImp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MediaOutput\AudioSwrUtil.cpp">
+      <Filter>源文件\MediaOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MediaOutput\VideoSwsUtil.cpp">
+      <Filter>源文件\MediaOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MediaOutput\DSounder.cpp">
+      <Filter>源文件\MediaOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PlayerImp\PlayAudio.cpp">
+      <Filter>源文件\PlayerImp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PlayerImp\PlayProcess.cpp">
+      <Filter>源文件\PlayerImp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PlayerImp\PlayControl.cpp">
+      <Filter>源文件\PlayerImp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MediaInput\RtmpClient.cpp">
+      <Filter>源文件\MediaInput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MediaInput\RtmpClientWrap.cpp">
+      <Filter>源文件\MediaInput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Common\mutexUtil.c">
+      <Filter>源文件\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Common\queue.c">
+      <Filter>源文件\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PlayerImp\TimeTask.cpp">
+      <Filter>源文件\PlayerImp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MediaOutput\VideoDrawerFactory.cpp">
+      <Filter>源文件\MediaOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MediaOutput\OpenGLRender.cpp">
+      <Filter>源文件\MediaOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Util\logcpp.cpp">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="qplayer_export.def">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
